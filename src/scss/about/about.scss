@@ -1,0 +1,226 @@
+@import '../components/header/header.css';
+@import '../components/footer/footer.css';
+@import '../components/root/root.css';
+
+nav{
+    background-color: black;
+
+    .dropdown, .dropdowns{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+}
+
+.section1{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+
+    &main{
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;        
+
+        a{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+    
+            div{
+                width: 34px;
+                height: 34px;
+                border: 1px solid white;
+                border-radius: 100%;
+                transform: rotate(90deg);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                i{
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+    
+            p{
+                color: white;
+                font-family: OutfitMedium;
+                font-size: 13px;
+            }
+        }
+    
+        .text1{
+            background: linear-gradient(75deg, #0098ff 0%, #7b35c8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+            font-size: 41px;
+            font-family: OutfitSemiBold;
+            width: 170px;
+        }
+    
+        .text2{
+            font-size: 14px;
+            color: white;
+            font-family: OutfitRegular;
+            width: 600px;
+        }
+    }
+
+}
+
+.section2{
+    width: 100%;
+    margin: 60px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &main{
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .block1{
+            display: flex;
+            flex-direction: column;
+            gap: 34px;
+
+            .text1{
+                color: #838383;
+                font-size: 41px;
+                font-family: OutfitMedium;
+            }
+
+            div{
+                display: flex;
+                justify-content: space-between;
+
+                p{
+                    width: 49%;
+                    font-size: 14px;
+                    color: #838383;
+                    font-family: OutfitRegular;
+                }
+            }
+        }
+
+        .block2{
+            display: flex;
+            flex-direction: column;
+            gap: 44px;
+
+            .text1{
+                color: #838383;
+                font-size: 41px;
+                font-family: OutfitMedium;
+                text-align: center;
+            }
+
+            .bottom{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &Main{
+                    width: 49%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 34px;
+
+                    .text3{
+                        color: #838383;
+                        font-size: 26px;
+                        font-family: OutfitMedium;
+                    }
+
+                    .texts{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 18px;
+
+                        p{
+                        font-size: 14px;
+                        color: #838383;
+                        font-family: OutfitRegular;
+                        }
+                    }
+                }
+
+                &Img{
+                    width: 49%;
+                }
+            }
+        }
+
+        .block3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+
+            .top{
+                display: flex;
+                flex-direction: column;
+                gap: 22px;
+
+                .text1{
+                    color: #838383;
+                    font-size: 41px;
+                    font-family: OutfitMedium;
+                    text-align: center;
+                }
+
+                .text2{
+                    font-size: 14px;
+                    color: #838383;
+                    font-family: OutfitRegular;
+                    text-align: center;
+                    width: 900px;
+                }
+            }
+
+            .bottom{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+                div{
+                    width: 380px;
+                    height: 170px;
+                    border: 1px solid #0098ff;
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    position: relative;
+
+                    img{
+                        position: absolute;
+                        right: 12px;
+                        top: 12px;
+                    }
+
+                    .text1{
+                        color: #838383;
+                        font-size: 26px;
+                        font-family: OutfitMedium;
+                    }
+
+                    .text2{
+                        font-size: 14px;
+                        color: #838383;
+                        font-family: OutfitRegular;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

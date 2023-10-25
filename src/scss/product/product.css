@@ -1,0 +1,294 @@
+@import '../components/header/header.css';
+@import '../components/footer/footer.css';
+@import '../components/root/root.css';
+nav {
+  background-color: black !important;
+}
+nav .dropdown, nav .dropdowns {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 180px 0 0 0;
+}
+section .main {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+section .main .top {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+section .main .top a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+section .main .top a div {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #838383;
+  border-radius: 100%;
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .main .top a div i {
+  color: #838383;
+  font-size: 15px;
+}
+section .main .top a p {
+  color: #838383;
+  font-family: OutfitMedium;
+  font-size: 13px;
+}
+section .main .top .text1 {
+  color: #838383;
+  font-size: 41px;
+  font-family: OutfitMedium;
+}
+section .main .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 50px;
+}
+section .main .content .left {
+  width: 900px;
+}
+section .main .content .left .head {
+  display: flex;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+}
+section .main .content .left .head p:nth-child(1) {
+  width: 90px;
+  font-family: OutfitBold;
+  font-size: 14px;
+  color: #838383;
+  padding-right: 10px;
+}
+section .main .content .left .head p:nth-child(2) {
+  width: 230px;
+  font-family: OutfitBold;
+  font-size: 14px;
+  color: #838383;
+  padding: 0 10px;
+}
+section .main .content .left .head p:nth-child(3) {
+  width: 200px;
+  font-family: OutfitBold;
+  font-size: 14px;
+  color: #838383;
+  padding: 0 10px;
+}
+section .main .content .left .head p:nth-child(4) {
+  width: 115px;
+  font-family: OutfitBold;
+  font-size: 14px;
+  color: #838383;
+  padding: 0 10px;
+}
+section .main .content .left .head p:nth-child(5) {
+  text-align: right;
+  width: 275px;
+  font-family: OutfitBold;
+  font-size: 14px;
+  color: #838383;
+  padding-left: 10px;
+}
+section .main .content .left #mainContent .body {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 20px;
+}
+section .main .content .left #mainContent .body .block1 {
+  width: 90px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+section .main .content .left #mainContent .body .block1 img {
+  width: 100%;
+}
+section .main .content .left #mainContent .body .block2 {
+  width: 230px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section .main .content .left #mainContent .body .block2 .text4 {
+  font-family: OutfitMedium;
+  font-size: 14px;
+  color: #838383;
+}
+section .main .content .left #mainContent .body .block2 .text5 {
+  font-family: OutfitMedium;
+  font-size: 13px;
+  color: #838383;
+}
+section .main .content .left #mainContent .body .block3 {
+  width: 200px;
+  padding: 0 10px;
+  display: flex;
+  gap: 4px;
+}
+section .main .content .left #mainContent .body .block3 .text6 {
+  font-family: OutfitMedium;
+  font-size: 14px;
+  color: #838383;
+}
+section .main .content .left #mainContent .body .block3 .text7 {
+  font-family: OutfitMedium;
+  font-size: 14px;
+  color: #838383;
+}
+section .main .content .left #mainContent .body .block4 {
+  width: 115px;
+  padding: 0 10px;
+}
+section .main .content .left #mainContent .body .block4 .border {
+  display: flex;
+  border: 1px solid #d4d4d4;
+  width: 96px;
+}
+section .main .content .left #mainContent .body .block4 .border div, section .main .content .left #mainContent .body .block4 .border span {
+  width: 32px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+section .main .content .left #mainContent .body .block4 .border div i, section .main .content .left #mainContent .body .block4 .border span i {
+  font-size: 12px;
+  color: #8a8a8a;
+  cursor: pointer;
+}
+section .main .content .left #mainContent .body .block4 .border span {
+  font-family: OutfitRegular;
+  color: #8a8a8a;
+  cursor: default;
+}
+section .main .content .left #mainContent .body .block5 {
+  width: 275px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+section .main .content .left #mainContent .body .block5 div {
+  display: flex;
+  gap: 4px;
+}
+section .main .content .left #mainContent .body .block5 div .text8 {
+  font-family: OutfitMedium;
+  font-size: 14px;
+  color: #838383;
+}
+section .main .content .left #mainContent .body .block5 i {
+  color: #FF4040;
+  cursor: pointer;
+}
+section .main .content .right {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+section .main .content .right .top .text1 {
+  font-family: OutfitBold;
+  font-size: 14px;
+  color: #838383;
+  line-height: 15px;
+}
+section .main .content .right .top input {
+  width: 270px;
+  height: 100px;
+  border: 1px solid #cccccc;
+  border-radius: 0 20px;
+  padding-bottom: 60px;
+  padding-left: 10px;
+  font-family: OutfitRegular;
+  font-size: 13px;
+  outline: none;
+  color: #838383;
+}
+section .main .content .right .top input::-moz-placeholder {
+  color: #838383;
+}
+section .main .content .right .top input::placeholder {
+  color: #838383;
+}
+section .main .content .right .bottom {
+  width: 100%;
+  height: 240px;
+  border: 1px solid #cccccc;
+  border-radius: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 20px;
+}
+section .main .content .right .bottom div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+section .main .content .right .bottom div .subtotal {
+  font-size: 26px;
+  color: #838383;
+  font-family: OutfitSemiBold;
+}
+section .main .content .right .bottom div .total {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  font-size: 18px;
+  font-family: OutfitSemiBold;
+  background: linear-gradient(75deg, #0098ff 0%, #7b35c8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+section .main .content .right .bottom div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+section .main .content .right .bottom div .text1 {
+  font-size: 14px;
+  color: #838383;
+  font-family: OutfitRegular;
+  text-align: center;
+}
+section .main .content .right .bottom div .button {
+  width: 90%;
+  padding: 10px 0;
+  background: linear-gradient(75deg, #0098ff 0%, #7b35c8 100%);
+  border-radius: 0 20px;
+  color: white;
+  font-family: OutfitRegular;
+  font-size: 14px;
+  text-align: center;
+}/*# sourceMappingURL=product.css.map */

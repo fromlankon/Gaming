@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: PoppinsLight;
+    src: url(/src/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: PoppinsMedium;
+    src: url(/src/fonts/Poppins-Medium.ttf);
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.box{
+    width: 410px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 46px;
+    margin-bottom: 140px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 200px;
+}
+
+.logo{
+    width: 115px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 48px;
+    border: 1px solid #c4cdd5;
+    border-radius: 3px;
+    outline: none;
+    margin-top: 4px;
+    padding-left: 14px;
+}
+
+input:focus{
+    border: 2px solid #008060; 
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: #008060;
+    color: white;
+    font-family: PoppinsMedium;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+    transition: .1s;
+    cursor: pointer;
+    user-select: none;
+}
+
+button:hover{
+    background-color: #004c3f;
+}
+
+button:active{
+    box-shadow: 0 0 0.1875em 0.1875em rgba(0,128,96,0.5);
+    background-color: #004c3f;
+}
+
+.text1{
+    font-family: PoppinsMedium;
+    font-size: 30px;
+}
+
+.text2{
+    font-family: PoppinsLight;
+    font-size: 15px;
+    color: #575757;
+}
+
+.text3{
+    font-family: PoppinsLight;
+    font-size: 15px;
+}
+
+.text4{
+    font-family: PoppinsLight;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.text4 a{
+    color: #479ccf;
+}
+
+.error{
+    display: none;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+.error p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #bf0711;
+}
+
+.fa-circle-exclamation{
+    color: #de3618;
+    font-size: 16px;
+}

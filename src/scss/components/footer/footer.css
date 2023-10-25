@@ -1,0 +1,112 @@
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 60px 0;
+  position: relative;
+}
+footer .footerMain {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+footer .footerMain .block1 {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+footer .footerMain .block1top {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+}
+footer .footerMain .block1top .text1 {
+  font-family: OutfitMedium;
+  color: white;
+  font-size: 26px;
+  width: 350px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+footer .footerMain .block1top .text1 span {
+  background: linear-gradient(75deg, #0098ff 0%, #7b35c8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: OutfitSemiBold;
+}
+footer .footerMain .block1top .text2 {
+  font-size: 14px;
+  color: white;
+  font-family: OutfitRegular;
+  width: 370px;
+}
+footer .footerMain .block1 .text3 {
+  font-size: 14px;
+  color: white;
+  font-family: OutfitRegular;
+}
+footer .footerMain .block2, footer .footerMain .block3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+footer .footerMain .block2 p, footer .footerMain .block3 p {
+  font-size: 15px;
+  color: white;
+  font-family: OutfitMedium;
+  letter-spacing: 1px;
+}
+footer .footerMain .block2 div, footer .footerMain .block3 div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footerMain .block2 div a, footer .footerMain .block3 div a {
+  color: white;
+  font-family: OutfitRegular;
+  font-size: 14px;
+  transition: 0.3s;
+}
+footer .footerMain .block2 div a:hover, footer .footerMain .block3 div a:hover {
+  color: #838383;
+}
+footer .footerMain .block4 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+footer .footerMain .block4 p {
+  font-size: 15px;
+  color: white;
+  font-family: OutfitMedium;
+  letter-spacing: 1px;
+}
+footer .footerMain .block4 .icons {
+  display: flex;
+  gap: 10px;
+}
+footer .footerMain .block4 .icons a {
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+footer .footerMain .block4 .icons a:hover {
+  background: linear-gradient(75deg, #0098ff 0%, #7b35c8 100%);
+}
+footer .footerMain .block4 .icons a:hover i {
+  color: white;
+}
+footer .footerMain .block4 .icons a i {
+  font-size: 18px;
+  transition: 0.3s;
+}/*# sourceMappingURL=footer.css.map */

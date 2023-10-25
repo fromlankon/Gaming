@@ -1,0 +1,30 @@
+@font-face {
+    font-family: OutfitRegular;
+    src: url(/src/fonts/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: OutfitMedium;
+    src: url(/src/fonts/Outfit-Medium.ttf);
+}
+
+@font-face {
+    font-family: OutfitSemiBold;
+    src: url(/src/fonts/Outfit-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: OutfitBold;
+    src: url(/src/fonts/Outfit-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}

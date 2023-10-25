@@ -1,0 +1,148 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"title": "Colossus Gaming Chair",
+			"description": "ERGONOMICALLY DESIGNED FOR HARDCORE GAMING : From its unique contours and angled seat edges, to its fully adjustable recline, tilt, and height, the Dr Luxur...",
+			"brand": "Kelper Brooks",
+            "currency": "USD",
+            "type": "Color:",
+			"category": "furniture",
+			"options": [
+				{
+					"color": "White",
+                    "price": 356.00,
+			        "discountedPrice": 500.00,
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/1_50862e3f-4e56-4d7c-9220-04cde28aca6d_258x258.png?v=1671448019"
+				},
+				{
+					"color": "Green",
+                    "price": "500.00",
+			        "discountedPrice": "600.00",
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/11_906652e6-c217-48e1-81a5-72556e789552_258x258.png?v=1671448017"
+				}
+			]
+		},
+        {
+			"id": 2,
+			"title": "Electrobot Gaming PC",
+			"description": "Multiple connectivity options including HDMI, USB ports & RGB fans let you connect a variety of peripherals easily. Wi-Fi Ready – Connect to the internet...",
+			"brand": "Electrobot",
+            "currency": "",
+            "type": "Size:",
+			"category": "smartphones",
+			"options": [
+				{
+					"color": "128 GB",
+                    "price": 468.00,
+			        "discountedPrice": "",
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/gx6-back-1000-removebg-preview_258x258.png?v=1671451565"
+				},
+				{
+					"color": "256 GB",
+                    "price": 500.00,
+			        "discountedPrice": 600.00,
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/gx6-side-open-1000-removebg-preview_258x258.png?v=1671451566"
+				}
+			]
+		},
+        {
+			"id": 3,
+			"title": "Nintendo Switch Lite",
+			"description": "Compatibility; Glass Screen Protector Compatible with Nintendo Switch. 9H Hardness; Tempered glass durability rated at 9H hardness to protect from everyday scratches. Case friendly; Made...",
+			"brand": "XFX",
+            "currency": "USD",
+            "type": "Color:",
+			"category": "smartphones",
+			"options": [
+				{
+					"color": "Blue",
+                    "price": 543.00,
+			        "discountedPrice": 700.00,
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/1-1_258x258.png?v=1671449884"
+				},
+				{
+					"color": "White",
+                    "price": 500.00,
+			        "discountedPrice": 700.00,
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/2_77e6abc8-a52d-435d-bb07-41cd82ef40e3_258x258.png?v=1671449883"
+				},
+				{
+					"color": "Grey",
+                    "price": 443.00,
+			        "discountedPrice": 700.00,
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/2_77e6abc8-a52d-435d-bb07-41cd82ef40e3_258x258.png?v=1671449883"
+				}
+			]
+		},
+        {
+			"id": 4,
+			"title": "Cloud Alpha Gaming",
+			"description": "HyperX Dual Chamber Drivers for more distinction and less distortion. Signature Award-Winning HyperX comfort. Durable aluminum frame with an expanded headband. Detachable braided cable with...",
+			"brand": "HyperX",
+            "currency": "USD",
+            "type": "Color:",
+			"category": "smartphones",
+			"options": [
+				{
+					"color": "Black",
+                    "price": "530.00",
+			        "discountedPrice": "600.00",
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/hyperx_cloud_alpha_black_1_main_1600x-removebg-preview_258x258.png?v=1671444553"
+				},
+				{
+					"color": "Red",
+                    "price": "500.00",
+			        "discountedPrice": "600.00",
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/hyperx_cloud_alpha_black_3_front_900x-removebg-preview_258x258.png?v=1671444553"
+				}
+			]
+		},
+        {
+			"id": 5,
+			"title": "Cloud Alpha Gaming",
+			"description": "Bring gaming worlds to life Feel your in-game actions and environment simulated through haptic feedback Experience varying force and tension at your fingertips with adaptive...",
+			"brand": "HyperX",
+            "currency": "",
+            "type": "Color:",
+			"category": "device",
+			"options": [
+				{
+					"color": "Black",
+                    "price": "630.00",
+			        "discountedPrice": "",
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/hyperx_chargeplay_duo_xbox_2_angled_controller_900x-removebg-preview_258x258.png?v=1671445499"
+				},
+				{
+					"color": "Red",
+                    "price": "500.00",
+			        "discountedPrice": "600.00",
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/hyperx_cloud_alpha_black_3_front_900x-removebg-preview_258x258.png?v=1671444553"
+				}
+			]
+		},
+        {
+			"id": 6,
+			"title": "Alien Ware Monitor T46",
+			"description": "Exceptional Full HD IPS 21.5 Inch Ultra Thin Display : Enjoy immaculate image quality with 1920x1080 resolution and 178 degree wide viewing angles I Zero...",
+			"brand": "Samsung",
+            "currency": "",
+            "type": "Size:",
+			"category": "monitor",
+			"options": [
+				{
+					"color": "32 Inches",
+                    "price": "850.00",
+			        "discountedPrice": "",
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/1_4661881d-c8c7-4d3b-962e-038344e4ac81_258x258.png?v=1671451100"
+				},
+				{
+					"color": "28 Inches",
+                    "price": "800.00",
+			        "discountedPrice": "600.00",
+					"images": "https://gaming-workdo.myshopify.com/cdn/shop/products/3_5dfac41e-149d-4bbd-8a5d-6ffc16e207d4_258x258.png?v=1671451100"
+				}
+			]
+		}
+	]
+}
